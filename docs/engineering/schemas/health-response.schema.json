@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-content-workforce.invalid/schemas/health-response-1.0.schema.json",
+  "title": "Application health response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "status", "application", "database"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "status": {"const": "ok"},
+    "application": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version", "environment"],
+      "properties": {
+        "name": {"const": "ai-content-workforce"},
+        "version": {"type": "string"},
+        "environment": {"enum": ["development", "test", "production"]}
+      }
+    },
+    "database": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {"status": {"const": "not_configured"}}
+    }
+  }
+}

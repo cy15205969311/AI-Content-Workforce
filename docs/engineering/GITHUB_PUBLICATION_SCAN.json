@@ -1,0 +1,374 @@
+{
+  "scope": "proposed public files; all research excluded from initial staging",
+  "limitations": "Pattern scan is not proof of absence of secrets or private material.",
+  "candidate_files": [
+    {
+      "path": ".env.example",
+      "bytes": 35,
+      "sha256": "f6fe741dac51263ca93059c3a292421534ee51002f686922d6d387108caf2bce"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1085,
+      "sha256": "39e76a057ad883b4fe7c71b0a4d01c2d95d1441529be38fa2e609a3edc9e215b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 421,
+      "sha256": "4ab64a2e6bbd0b9fe8199c966531f73d53f447b68d2602a69262f35c9ba7e37d"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "ADR/ADR-001-TECH-STACK.md",
+      "bytes": 3345,
+      "sha256": "ba2e7f1925f4d3b84266556bfc3c86a807bb46eebdee34752f6858796721e449"
+    },
+    {
+      "path": "API_SPEC.md",
+      "bytes": 2667,
+      "sha256": "817eae5bca8a8bc10eb1005e1d81d5f48467b2919ad9a6cd2aa96e95b21ed003"
+    },
+    {
+      "path": "API_SPEC_MVP.md",
+      "bytes": 2274,
+      "sha256": "f2e8c56d85453fe47fd3f881a507a61f5384d15affd3268176c8d8693472a477"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 488,
+      "sha256": "97834160f44f237435dd68191f4ea26385a372c315896825cce80f9828f247e3"
+    },
+    {
+      "path": "DATA_MODEL.md",
+      "bytes": 2814,
+      "sha256": "06576fcb019bb7620f02758f3847b5d07d43f81dd7a849e6b2c2cf79e33ef1f5"
+    },
+    {
+      "path": "DATA_MODEL_MVP.md",
+      "bytes": 2417,
+      "sha256": "76a8571babae3ef2aa152c09d8bc9c015267e3ddd69d5a01a7f1ac75c757c668"
+    },
+    {
+      "path": "DECISION_LOG.md",
+      "bytes": 2803,
+      "sha256": "0aab02ffaf436f0bdc631b3855981cae51af7ee15ef8fa792377ef79f63b7ca1"
+    },
+    {
+      "path": "DEVELOPMENT_ROADMAP.md",
+      "bytes": 3176,
+      "sha256": "a902069c7682c40eb6ae3fdb583f179c3a3928350f387f841c20ee5b726c72bc"
+    },
+    {
+      "path": "G0.1_VALIDATION_REPORT.md",
+      "bytes": 1009,
+      "sha256": "a2dcd2f7a037add7fc5b4eff0ccd129a2631c87df4415897be4501a0f3f2b723"
+    },
+    {
+      "path": "GITHUB_INTEGRATION_REPORT.md",
+      "bytes": 5896,
+      "sha256": "091f3f46406b2883ca341645d514728643e05c11a4badf817e33d5c378994599"
+    },
+    {
+      "path": "GLOBAL_SKILL_RESEARCH.md",
+      "bytes": 5929,
+      "sha256": "f665e92dbe1d327212c4d15d74edf5be3a87ee4f5901d2f4df1b694972d3e245"
+    },
+    {
+      "path": "GREENFIELD_ARCHITECTURE.md",
+      "bytes": 2671,
+      "sha256": "01882a3969391e309ca99b784a049b175ee9fd3b604e9c69d63ba4afebbf9f1b"
+    },
+    {
+      "path": "GREENFIELD_DEVELOPMENT_ROADMAP.md",
+      "bytes": 2785,
+      "sha256": "222266058c939a3d8bc0f7245ad681af1de2216a8ac16a53a472239794cad512"
+    },
+    {
+      "path": "GREENFIELD_SCOPE.md",
+      "bytes": 1675,
+      "sha256": "efc4eaca5e6381ee7e27e03faad8cdf157b7bf664bb8561aabb0dc39cdbd1608"
+    },
+    {
+      "path": "MODULE_DESIGN.md",
+      "bytes": 3694,
+      "sha256": "627405975ea59a24cd6f902869efcbe04b8dd8e035e0a5c3cbe02bbf41e71c47"
+    },
+    {
+      "path": "MODULE_RESPONSIBILITY.md",
+      "bytes": 3291,
+      "sha256": "024297c898d455e68a2a78b4bd140ae33398bf225247b94c7f4c34aae08c2592"
+    },
+    {
+      "path": "MVP_ACCEPTANCE_CRITERIA.md",
+      "bytes": 2197,
+      "sha256": "4678d3b4e40c968595cf54caeb697154da0e5dc662c1585b290458e46a9c3333"
+    },
+    {
+      "path": "MVP_PRD.md",
+      "bytes": 2462,
+      "sha256": "d2df0b67a9cf79f2298d5db1c73f04a745650f10559882cda1db85cc1c1db0b2"
+    },
+    {
+      "path": "OPEN_DECISIONS.md",
+      "bytes": 3408,
+      "sha256": "9408045678c447dc647fe00b6cbc24a27129f1829e87390c830dd14e81ddd712"
+    },
+    {
+      "path": "PHASE1_IMPLEMENTATION_REPORT.md",
+      "bytes": 1621,
+      "sha256": "f1c622d85b57f5afa36c9fc6e99c3c9dc31cf2b8fc49d09af888040e882bb66d"
+    },
+    {
+      "path": "PHASE1_RISK_REGISTER.md",
+      "bytes": 1615,
+      "sha256": "0b8f47e5e57db750c6c86c61debd517f7312dfea9c57521e580f96c041b93911"
+    },
+    {
+      "path": "PHASE1_TECH_DECISION_REVIEW.md",
+      "bytes": 9297,
+      "sha256": "a67389c55239adaeecc38c0eafec4d5de6fe6b34acab5414791f47bb196fda69"
+    },
+    {
+      "path": "PHASE1_TEST_REPORT.md",
+      "bytes": 3398,
+      "sha256": "2e5e6c86f6917140e63cc1df9d64f4844e0e296335828fd7f0b53707d9c7917d"
+    },
+    {
+      "path": "PRD.md",
+      "bytes": 2845,
+      "sha256": "2daf06ef5ec5658f4d13e5266cae4d68421fb753c601e170e3a5a1e536d72d86"
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "bytes": 4495,
+      "sha256": "fb6630f355b1032734fd133cb1598f7950b29729e937c330484e6ffc6dc63ff8"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 2738,
+      "sha256": "f222a9a37aed4486ba8cd5042d6dc6224253bb3d3d009ed32c0e67b1a9f90202"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3063,
+      "sha256": "b23d25402c3bccebbdd68b7300c6d8d0e6f4ead1e0bd6870ced9e24770826fc0"
+    },
+    {
+      "path": "RISK_REGISTER.md",
+      "bytes": 521,
+      "sha256": "fbb147fe2b821089221f6705cb2f365eaecce668a9302296791335dca3a38773"
+    },
+    {
+      "path": "SKILL_DEVELOPMENT_STANDARD.md",
+      "bytes": 3774,
+      "sha256": "b26e35e21b0f7d4c792a899002d946504df0d6dc68a55bfc734bebf9ef6c91b0"
+    },
+    {
+      "path": "SKILL_EVALUATION_STANDARD.md",
+      "bytes": 3394,
+      "sha256": "4030898c0dbbcaa74f2e24b9b8cb355dcaf3e7300da26d0cd5cf43029fa34d85"
+    },
+    {
+      "path": "SKILL_LICENSE_POLICY.md",
+      "bytes": 3079,
+      "sha256": "519c7f2b18c12f54ab48a76db430144b34ecc452710480709536434da7e60add"
+    },
+    {
+      "path": "SKILL_REUSE_POLICY.md",
+      "bytes": 2709,
+      "sha256": "37b5a57669c1e738e572c501c977565420999415166e70c04b5a432bf21ba57d"
+    },
+    {
+      "path": "SKILL_RUNTIME_DESIGN.md",
+      "bytes": 3016,
+      "sha256": "581e36f93cbd1f01a7ef168ee2f69aebb0c64c821384c511931ca8e7dac6ab0b"
+    },
+    {
+      "path": "SKILL_SECURITY_POLICY.md",
+      "bytes": 3179,
+      "sha256": "112aa055cd40a73f1fae15c6bfca7de5f9b9f6b60f98b6eae8159af16fa8a971"
+    },
+    {
+      "path": "SYSTEM_ARCHITECTURE.md",
+      "bytes": 3086,
+      "sha256": "36b501ff18f021cb6dfe23b2d9dd806b04795a2d4d647f8deea48bc81e658422"
+    },
+    {
+      "path": "SYSTEM_BOUNDARY.md",
+      "bytes": 2082,
+      "sha256": "3df811f0758c9d7036b38a3af57862a5ad7a2c76b87881475ccfa225b6c6f8a3"
+    },
+    {
+      "path": "TECHNOLOGY_SELECTION.md",
+      "bytes": 4632,
+      "sha256": "9079babb8d6f67d307072147af6699237c22a3091d1fcc89b67f8d0aa164bde9"
+    },
+    {
+      "path": "V1.1_DOCUMENT_REVIEW.md",
+      "bytes": 4344,
+      "sha256": "11d75602f99a17f833054042e35ce9923fa986c475c273a73d122b9d2bf8d4d6"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 2412,
+      "sha256": "c58660594a199397ff79cbcc18cd393b7aeecb726654c2d8c3d5e92ffcc05f79"
+    },
+    {
+      "path": "WORKFLOW_ENGINE_DESIGN.md",
+      "bytes": 3445,
+      "sha256": "6320a1fc464856db7713d43edb6f2c3a588f653d5598f59bfd9e81aa5e4423c8"
+    },
+    {
+      "path": "WORKFLOW_MVP_DESIGN.md",
+      "bytes": 3024,
+      "sha256": "cf1cfa3b04b767c0f1ace153ab77e2efbb0e6e3ac2e4a51768b6a9ea8b0f8ac3"
+    },
+    {
+      "path": "XIAOHONGSHU_LICENSE_REVIEW.md",
+      "bytes": 351,
+      "sha256": "f52393f1896aec85e7716104a8bbeb31fc6a7ab2ca465471c300d7977d3aa560"
+    },
+    {
+      "path": "XIAOHONGSHU_REFERENCE_ANALYSIS.md",
+      "bytes": 369,
+      "sha256": "ed60565d5d47980e8e625eae3671587d570873ddd88e11c0050744aee9888a54"
+    },
+    {
+      "path": "XIAOHONGSHU_REFERENCE_BOUNDARY.md",
+      "bytes": 2053,
+      "sha256": "42401b52167d670f96485142bcb526978a48f1b32640056490468ac0ec816580"
+    },
+    {
+      "path": "XIAOHONGSHU_REUSE_PLAN.md",
+      "bytes": 363,
+      "sha256": "79d4513df3c79805ff9857a3476497dad0d26d964a5febe893a9b291b0119d21"
+    },
+    {
+      "path": "XIAOHONGSHU_SECURITY_REVIEW.md",
+      "bytes": 349,
+      "sha256": "80d91445346d1741c9ec6ffd41f2c5d289e34764ede5570b79e6f9118cc7ffcf"
+    },
+    {
+      "path": "docs/engineering/API_VERSIONING.md",
+      "bytes": 1510,
+      "sha256": "533a5f99fc093572986238337b64d707b3a94a9bd9589fe5482e1de7c0277a45"
+    },
+    {
+      "path": "docs/engineering/CI_GUIDE.md",
+      "bytes": 916,
+      "sha256": "d978e9836496916b5f3c777e62212fabe7a10de2600c9626f5d347f753bed3af"
+    },
+    {
+      "path": "docs/engineering/CODING_STANDARDS.md",
+      "bytes": 1041,
+      "sha256": "b93b7159de5d6624e0a1436304ff89f4671fcc485620d1989f466d62d18dee64"
+    },
+    {
+      "path": "docs/engineering/DEVELOPMENT_GUIDE.md",
+      "bytes": 1092,
+      "sha256": "21cc6cd410f2d73b66792263bce47c818a6a29d08e813f741930ea535611411e"
+    },
+    {
+      "path": "docs/engineering/ENVIRONMENT_CONFIGURATION.md",
+      "bytes": 1037,
+      "sha256": "77a20a6354f9d57001e8020265b33c167d554f072a84febb192e37399e57651d"
+    },
+    {
+      "path": "docs/engineering/PROJECT_STRUCTURE.md",
+      "bytes": 1584,
+      "sha256": "238c95bda41989718304c5e8b133ed0a6fb5eda17cf8df3b38fd609642f52fdd"
+    },
+    {
+      "path": "docs/engineering/TESTING_STRATEGY.md",
+      "bytes": 1073,
+      "sha256": "3212d061eb3db2928ded935876dffe23e14939de4bbcc99a64d30d553adef599"
+    },
+    {
+      "path": "docs/engineering/github_preflight.py",
+      "bytes": 3859,
+      "sha256": "e9fa92bb8764721ebea5615cf227a39edd9f83a1107f390675e422d8aee49df9"
+    },
+    {
+      "path": "docs/engineering/schemas/error-response.schema.json",
+      "bytes": 784,
+      "sha256": "21d714f59698e84cfb8ad499d73ed4250b6232bcf6d0c3d92ec8f220f1bb0eed"
+    },
+    {
+      "path": "docs/engineering/schemas/health-response.schema.json",
+      "bytes": 922,
+      "sha256": "f16a34f86dec4731c56ef314b3d3c9920ae6fabd46b9c8203fa679677740ca5b"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1034,
+      "sha256": "486cb01e28f7a502e76ae5bf33bbc1f214e0cccca550a0382f8ad2529c873a56"
+    },
+    {
+      "path": "src/ai_content_workforce/__init__.py",
+      "bytes": 71,
+      "sha256": "60ace3e72be4b79a0f8a9aa11bcafa97453c09d5c96ac359ac616eaafa754429"
+    },
+    {
+      "path": "src/ai_content_workforce/api/__init__.py",
+      "bytes": 24,
+      "sha256": "c5e79b75137811726e30acef2fa5cfc649514fce1c86da771535b368f43238c0"
+    },
+    {
+      "path": "src/ai_content_workforce/api/v1/__init__.py",
+      "bytes": 40,
+      "sha256": "25fc9c2c1c627ac37690df9d1445395be80886b1759120138afac491d0f6c3f2"
+    },
+    {
+      "path": "src/ai_content_workforce/api/v1/health.py",
+      "bytes": 1628,
+      "sha256": "7b4e0544a4fcf432c8559de45afdaf388be610a981200756fe7f65ee7b2f90f8"
+    },
+    {
+      "path": "src/ai_content_workforce/core/__init__.py",
+      "bytes": 57,
+      "sha256": "f40c511c030f217f3fac16b6517a229ae6709e6487b144394d561be3c69ab1c3"
+    },
+    {
+      "path": "src/ai_content_workforce/core/config.py",
+      "bytes": 1309,
+      "sha256": "a06b327fa99f6bb3641ebe7779d667b70c9bd381deeadd5f4655141bfa259577"
+    },
+    {
+      "path": "src/ai_content_workforce/core/logging.py",
+      "bytes": 1364,
+      "sha256": "dc8905453f87148d3ac9e5c0ef8184922af4ef8f4017538368875e0711bd0e2d"
+    },
+    {
+      "path": "src/ai_content_workforce/main.py",
+      "bytes": 4275,
+      "sha256": "348aded80a2b79afe8d5ff8293457ca9ffdd3f3d2b9fe62820a2c778caac2ad6"
+    },
+    {
+      "path": "tests/integration/test_health_api.py",
+      "bytes": 3604,
+      "sha256": "6cc55ba30f2a001940f12067fe3adf57cc30906932f7ed957b69a184ab408a75"
+    },
+    {
+      "path": "tests/unit/test_config.py",
+      "bytes": 1518,
+      "sha256": "5308c094e6b62753aa9288750a1c89e65fb5c9a984efac41980127cf4ef9e0b2"
+    },
+    {
+      "path": "tests/unit/test_contract_files.py",
+      "bytes": 1087,
+      "sha256": "a4182ab27a67fdc67b080365bb2955f73b2b9c1afed4156ebca24c44649a90d5"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 43689,
+      "sha256": "87520a4c68a0ca9fa436cb19ef1349d75569131fa144362d5ac8d52531870767"
+    }
+  ],
+  "findings": [],
+  "research_excluded_file_count": 137,
+  "research_publication": "deferred; raw clones, evidence, metadata and baselines stay local"
+}

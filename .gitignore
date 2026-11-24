@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local secrets
+.venv/
+.venv*/
+.phase1-clean-env/
+.env
+.env.*
+!.env.example
+
+# Tool caches and test output
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Research publication is a separate review; preserve all local assets.
+/research/
